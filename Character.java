@@ -20,6 +20,10 @@ public abstract class Character {
         System.out.println(name + ": Rrrrrrrrr....");
     }
 
+    public void unsheathe() {
+        System.out.println(name + ": unsheathes his weapon.");
+    }
+
     public void moveRight() {
         System.out.println(name + ": moves right");
     }
