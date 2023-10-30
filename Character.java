@@ -4,11 +4,11 @@ public abstract class Character {
     protected int agility;
     protected int strength;
     protected int wit;
-    protected String RPGClass = "SomethingSetByTestCharacter";
+    protected final String RPGClass;
 
     protected Character(String name, String RPGClass) {
         this.name=name;
-        this.RPGClass = RPGClass;
+        this.RPGClass=RPGClass;
         this.life = 50;
         this.agility = 2;
         this.strength = 2;
